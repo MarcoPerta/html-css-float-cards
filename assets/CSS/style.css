@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
 *{
     margin: 0;
@@ -13,11 +13,11 @@
 }
 
 html{
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Fredoka One', cursive;
 }
 
 header, main{
-    width: 70%;
+    width: 60%;
     margin: auto;
 }
 
@@ -55,11 +55,11 @@ img {
 }
 
 .work{
-    font-size: 12px;
+    /* font-size: 12px; */
 }
 
 .name{
-    font-size: 18px;
+    /* font-size: 18px; */
 }
 
 .mail{
@@ -73,4 +73,5 @@ img {
 .name, .work, .mail {
     text-align: left;
     padding: 2px;
+    font-size: 0.875rem;
 }
