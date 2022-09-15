@@ -16,8 +16,8 @@ html{
     font-family: 'Abril Fatface', cursive;
 }
 
-header{
-    width: 80%;
+header, main{
+    width: 70%;
     margin: auto;
 }
 
@@ -25,7 +25,52 @@ header h1{
     color: #E53170;
 }
 
-header h1, p{
+header > h1, .heading{
     padding: 20px 0px;
     text-align: center;
+}
+
+.container{
+    width: 100%;
+}
+
+.columns{
+    padding: 20px 10px;
+    width: calc(100% / 3);
+    float: left;
+}
+
+.cards{
+    float: left;
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    box-shadow: 3px 3px 3px 3px #888888
+}
+
+img {
+    height: 100%;
+    float: left;
+    padding-right: 10px;
+}
+
+.work{
+    font-size: 12px;
+}
+
+.name{
+    font-size: 18px;
+}
+
+.mail{
+    color:#36B8E0;
+}
+
+.name, .work {
+    color: white;
+}
+
+.name, .work, .mail {
+    text-align: left;
+    padding: 2px;
 }
